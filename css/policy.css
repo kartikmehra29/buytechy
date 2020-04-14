@@ -1,0 +1,51 @@
+.privacy-policy{
+    background:linear-gradient(45deg, #2b67cb, #46c3e8);
+    height: 400px;
+}
+.breadcrumb{
+    background: none;
+}
+.breadcrumb-item{
+    font-size: 10px;
+}
+.breadcrumb-item a{
+    color: #fff;
+}
+.breadcrumb-item.active{
+    color: #fff !important;
+    font-size: 10px;
+}
+.breadcrumb-item.active:before{
+    color: #fff;
+    content: ">";
+}
+.policy-content{
+    margin: -250px 0 40px;
+}
+.policy-text{
+    background: #fff;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.policy-text p{
+    font-size: 10px;
+}
+.policy-text h2{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.policy-content .title span{
+    color: #fff;
+}
+.policy-content .title{
+    margin-bottom:20px;
+}
+    
+
+@media screen and (max-width: 480px) {
+    .policy-content {
+        margin: -220px 0 40px;
+    }
+}
