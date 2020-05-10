@@ -64,6 +64,16 @@
     height: 450px;
     padding: 0 35px;
 }
+.right-side.signup{
+    height: 440px;
+}
+.signup-policy{
+    font-size: 7px;
+    margin: 10px 00 0;
+}
+.login-page .col-md-5.sign{
+    padding: 5px;
+}
 .right-side h3{
     font-size: 20px;
     margin: 8px 0 12px;
