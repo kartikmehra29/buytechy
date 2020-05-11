@@ -1,0 +1,132 @@
+.contact{
+    background: linear-gradient(to right ,#7b74dc,#3bdede);
+    height: 350px;
+}
+
+/* breadcrumb */
+
+.breadcrumb{
+    background: none;
+    padding-left: 0;
+}
+.breadcrumb-item{
+    font-size: 10px;
+}
+.breadcrumb-item a{
+    color: #fff;
+}
+.breadcrumb-item.active{
+    color: #fff !important;
+    font-size: 10px;
+}
+.breadcrumb-item.active:before{
+    color: #fff;
+    content: ">";
+}
+
+/* contact-top-content */
+.contact .col-md-6 h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact hr{
+    width: 30%;
+    background: #fff;
+}
+.contact .col-md-6 p{
+    color: #fff;
+    font-size: 10px;
+}
+
+/* contact-box */
+
+section.contact-box {
+    margin: -170px 0 100px;
+}
+
+.form{
+    border-radius: 10px;
+    background: #fff;
+    height: 400px;
+    box-shadow: 0 0 10px #757575;
+}
+
+/* contact-box-left-side */
+.contact-box .form .col-md-6:first-child{
+    padding-top: 12px;
+}
+.form input{
+    border: none;
+    border-bottom: 1px solid #b7b7b7;
+    padding: 5px;
+    font-size: 10px;   
+    width: 100%;
+    margin: 8px 0;
+    color: #757783;
+    font-weight: 600;
+    outline: none;
+}
+.form label{
+    font-size: 10px;   
+    font-weight: 600;
+    margin: 0;
+    color: #616161;
+}
+
+.form Button{
+    background: #50deff;
+    padding: 5px 0px;
+    width: 30%;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.form textarea{
+    padding: 5px;
+    font-size: 10px;   
+    width: 100%;
+    margin: 5px 0;
+    color: #757783;
+    font-weight: 600;
+    outline: none;
+}
+
+/* contact-box-right-side */
+.contact-box .form .col-md-6:last-child{
+    background: #252525;
+    padding-top: 12px;
+    border-radius: 10px;
+    color:#fff;
+}
+.contact-box .form ul li{
+    list-style: none;
+    font-size: 12px;
+    margin: 12px 0;
+}
+.contact-box .form ul li img{
+    width: 40px;
+    margin: 0 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+/* contact-box-left-side */
+    section.contact-box {
+        margin: -140px 0 300px;
+        padding: 0px 15px;
+    }
+    .contact-box .col-md-6.ml-3{
+        margin-left: 0 !important;    
+    }
+    .form {
+        height: 350px;
+    }
+
+/* contact-box-right-side */
+    .contact-box .form .col-md-6:last-child{
+        margin: 45px 0;
+    }
+}
